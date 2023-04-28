@@ -10,15 +10,15 @@
 </head>
 <body>
     <header id="header">
-    <div>
-        <img src="https://cdn-icons-png.flaticon.com/512/616/616300.png"  width="100" height="" id="header-img"/>
-        <h1>ORIGINAL TROMBONES</h1>
+    <div id="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616300.png"  width="30" height="30" id="header-img"/>
+        <h1 id="logo-title">ORIGINAL TROMBONES</h1>
 
     </div> 
         <nav id="nav-bar">
-            <a href="#" id="nav-link">Features</a>
-            <a href="#" id="nav-link">How It Works</a>
-            <a href="#" id="nav-link">Pricing</a>
+            <a href="#feature" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#footer" class="nav-link">Pricing</a>
 
         </nav>
         
@@ -30,50 +30,50 @@
                 <input type="submit" id="submit" value="GET STARTED" src="https://www.freecodecamp.com/email-submit">
             </form>
         </div>
-    <div class="sub-main">
+    <div class="sub-main" id="feature">
             <div class="service">
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined icon">
                     local_fire_department
                     </span>
                     <div class="content">
-                        <h2>PremiuM Materials</h2>
-                        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
+                        <h1>PremiuM Materials</h1>
+                        <p class="mini-main">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.
                         </p>
                     </div>
             </div>
 
 
             <div class="service">
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined icon">
                     badge_critical_battery
                     </span>
                 <div class="content">
-                    <h2>Quality Assurance</h2>
-                    <p>
+                    <h1>Quality Assurance</h1>
+                    <p class="mini-main">
                         For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.
                     </p>
                 </div>
             </div>
 
             <div class="service">
-                <span class="material-symbols-outlined">
+                <span class="material-symbols-outlined icon">
                     local_shipping
                     </span>
                 <div class="content">
-                    <h2>Fast Shipping</h2>
-                    <p>
+                    <h1>Fast Shipping</h1>
+                    <p class="mini-main">
                         We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.
                     </p>
                 </div>
         </div>
 
         </div>
-        <iframe width="420" height="315" id="video" src="https://www.youtube.com/watch?v=tjh_f7zkyPA"></iframe>
+        <iframe width="560" height="315" id="how-it-works video" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        <div class="container">
+        <div class="container" id="pricing">
             <!---- card1-->
             <div class="card">
-                <h2 class="card-heading">TENOR TROMBONE</h2>
+                <div class="card-heading">TENOR TROMBONE</div>
                 <div class="card-info">
                     <h3>$600</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quidem aliquam doloremque maiores nobis ipsam voluptates facere perspiciatis, facilis, officia beatae voluptatum a magnam tempora labore, dolor architecto alias ut.</p>
@@ -82,7 +82,7 @@
             </div>
             <!------card2-->
             <div class="card">
-                <h2 class="card-heading">BASS TROMBONE</h2>
+                <div class="card-heading">BASS TROMBONE</div>
                 <div class="card-info">
                     <h3>$900</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quidem aliquam doloremque maiores nobis ipsam voluptates facere perspiciatis, facilis, officia beatae voluptatum a magnam tempora labore, dolor architecto alias ut.</p>
@@ -91,7 +91,7 @@
             </div>
             <!------card3-->
             <div class="card">
-                <h2 class="card-heading">VALVE TROMBONE</h2>
+                <div class="card-heading">VALVE TROMBONE</div>
                 <div class="card-info">
                     <h3>$1200</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quidem aliquam doloremque maiores nobis ipsam voluptates facere perspiciatis, facilis, officia beatae voluptatum a magnam tempora labore, dolor architecto alias ut.</p>
@@ -102,7 +102,7 @@
 
 
         </div>
-        
+        <footer id="footer"></footer>
 
     </main>
 </body>
